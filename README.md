@@ -1,3 +1,0 @@
-# MineInfo
-Web Tech Project
-
