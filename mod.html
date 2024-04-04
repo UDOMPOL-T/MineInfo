@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mod</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://www.bootstrapcdn.com//css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://res.cloudinary.com/zenbusiness/image/upload/v1670445040/logaster/logaster-2020-06-image14-3.png" type="image/icon type">
+<style>
+  * {
+  font-family: fantasy;
+}
+/* ปรับแต่ง Navigation Bar */
+.navbar {
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  margin-left: 100px;
+}
+.navbar-nav li a {
+  color: black;
+  font-size: 25px;
+}
+
+.nav-item {
+  justify-content: space-between;
+}
+.navbar-nav li a:hover {
+  color: #007bff;
+  transition: .1s;
+}
+
+
+.text {
+  font-size: 20px;
+}
+/* ปรับแต่งส่วน Body */
+.body-content {
+  background-image: url(https://static.planetminecraft.com/files/resource_media/screenshot/1719/2017-05-07-14-02-40-1494230993_lrg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 110px 0;
+  color: rgb(245, 245, 245);
+  text-shadow: 4px 3px black;
+}
+.how-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.take-a-tour-btn {
+  margin-left: 10%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: grey;
+  color: #fff;
+}
+
+/* ปรับแต่ง Footer */
+.footer {
+  background-color: black;
+  padding: 20px;
+  margin-top: 50px;
+}
+.footer-logo {
+  width: 100px;
+  margin-left: 10%;
+}
+.footer-contact {
+  margin-left: 20%;
+}
+.footer-contact p {
+  margin-bottom: 5px;
+}
+.bg-1 { 
+ background-color: #1abc9c;
+ color: #ffffff;
+}
+.bg-2 { 
+ background-color: #474e5d;
+ color: #ffffff;
+}
+.bg-3 { 
+ background-color: #ffffff;
+ color: #555555;
+}
+.container-fluid {
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+.take-a-tour-btn {
+margin: 0 auto;
+display: block;
+padding: 10px 20px;
+font-size: 18px;
+border-radius: 5px;
+transition: all 0.2s ease-in-out;
+}
+
+.take-a-tour-btn:hover {
+font-size: 20px;
+transform: scale(1.1);
+color: #333;
+}
+
+
+.take-a-tour-btn:hover {
+transform: translateY(-5px);
+}
+
+.leaf img {
+width: 50px;
+animation: leaf 7s linear infinite;
+}
+
+.leaf {
+width: 100%;
+display: flex;
+align-items: normal;
+justify-content: space-around;
+position:absolute;
+top: -50px;
+}
+
+@keyframes leaf {
+0% {
+transform: translateY(1000);
+opacity: 0;
+}
+50% {
+opacity: 1;
+}
+70% {
+opacity: 1;
+}
+100% {
+transform: translateY(300vh);
+opacity: 0;
+}
+}
+
+.leaf img:nth-child(1) {
+animation-delay: 2s;
+}
+.leaf img:nth-child(2) {
+animation-delay: 1s;
+}
+.leaf img:nth-child(3) {
+animation-delay: 3s;
+}
+.leaf img:nth-child(4) {
+animation-delay: 4.5s;
+}
+.leaf img:nth-child(5) {
+animation-delay: 3s;
+}
+.leaf img:nth-child(6) {
+animation-delay: 6s;
+}
+.leaf img:nth-child(7) {
+animation-delay: 2s;
+}
+
+svg {
+  position: absolute;
+  margin-left: -100vh;
+}
+
+.container-fluid .frog {
+  position: relative;
+}
+
+.video {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar">
+      <a class="navbar-brand" href="#">
+        <img src="https://res.cloudinary.com/zenbusiness/image/upload/v1670445040/logaster/logaster-2020-06-image14-3.png" alt="โลโก้เว็บไซต์" height="70px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item col-sm-12">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index1.html">Mod</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Creator</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="body-content">
+      <h1 class="how-title text-white text-center">How is the modded fun?</h1>
+      <div class="text text-center text-orange"
+      <h3>Why Minecraft Mods Are Fun <br>
+        Minecraft mods add a variety of elements to the game that make it more enjoyable for players. Here are some reasons why mod Minecraft is fun
+        <br>
+        The Twilight Forest: Adds a new dimension to the game.
+      </h3>
+      <br><br><br><br><br><br>
+      </div>
+      <button class="btn btn-outline-secondary take-a-tour-btn">Take a Tour</button>
+    </div>
+    <div class="container-fluid bg-0 text-center">
+        <h3>New Content</h3>
+        <br><br>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wX1RT-oejok?si=1R2AcXOsWQsRLLEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div> <br>
+        <h3>They add new content
+            Mods can add new mobs, items, dimensions, structures, recipes, and more.
+            This gives players new things to discover, challenges to overcome, and ways to have fun with the game.</h3>
+      </div>
+      
+      <div class="container-fluid bg-2 text-center">
+        <h3>They customize the gameplay experience</h3>
+        <p>Mods allow players to customize the game to fit their playstyle.
+            They can adjust the difficulty, add new mechanics, change the graphics, and more.</p>
+            <div class="frog">
+              <img src="https://i.pinimg.com/originals/f6/5f/15/f65f15f446f36b0ca9173dca13135597.gif" alt=""> <br><br>
+            </div>
+            <a href="#" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-search"></span>
+        </a>
+      </div>
+      <div class="container-fluid bg-3 text-center">
+        <h3>They expand the community</h3>
+        <br><br>
+        <img src="https://i.ytimg.com/vi/AMAf-oR6x5I/maxresdefault.jpg" class="img-thumbnail" alt="Bird" width="500" height="550"><br><br><br>
+        <h6>Mods have a large community of players who create, share, and use them.
+            This allows players to meet new people, learn new things, and collaborate on projects.
+            Examples of popular Minecraft mods</h6><br>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="0.8" d="M0,256L48,234.7C96,213,192,171,288,133.3C384,96,480,64,576,64C672,64,768,96,864,101.3C960,107,1056,85,1152,90.7C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <div class="container-fluid bg-3 text-center"> 
+        <br><br>
+        <h3>Popular Minecraf Mods</h3><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <h5>Biomes O' Plenty</h5>
+            <img src="https://minecraftinsider.com/wp-content/uploads/2023/03/biomes-o-plenty-mod.jpg" class="img-thumbnail" alt="Image" width="350" height="300">
+            <p>Adds a variety of new biomes to the game.</p>
+          </div>
+          <div class="col-sm-4"> 
+            <h5>Thaumcraft</h5>
+            <img src="https://minesters.com/uploads/2022/1/thaumcraft-latest-version.jpg" class="img-thumbnail" alt="Image" width="350" height="300">
+            <p>Adds a magic system to the game.</p>
+          </div>
+          <div class="col-sm-4"> 
+            <h5>IndustrialCraft 2</h5>
+            <img src="https://i.ytimg.com/vi/y_vL1zOjg6s/maxresdefault.jpg" class="img-thumbnail" alt="Image" width="350" height="300">
+            <p>Adds an industrial system to the game.</p>
+          </div>
+        </div>
+      </div>
+      <div class="leaf">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+        <img src="https://preview.redd.it/ulixouipmkhb1.png?auto=webp&s=34e1c89deacff3876936b3432480975b7309479b" alt="">
+      </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
